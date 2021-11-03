@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-export default function Result(props) {
+export default function Display(props) {
   return (
     <View>
       <Text>{props.messageResultImc}</Text>
