@@ -24,7 +24,9 @@ export default function Form() {
       setHeight(null);
       return;
     } else {
-      alert("Preencha o peso e altura!");
+      setImc(null);
+      setTextButton("Calcular")
+      setMessageImc("Preencha o peso e altura")
       setHeight(null);
       setWeight(null);
     }
