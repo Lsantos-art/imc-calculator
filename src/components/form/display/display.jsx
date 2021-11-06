@@ -12,11 +12,9 @@ export default function Display(props) {
   return (
     <View style={styles.display}>
       <View style={styles.boxShareButton}>
-        {props.resultImc ? (
-          <TouchableOpacity style={styles.share} onPress={onShare}>
-            <Text style={styles.sharedText}>Compartilhar</Text>
-          </TouchableOpacity>
-        ) : null}
+        <TouchableOpacity style={styles.share} onPress={onShare}>
+          <Text style={styles.sharedText}>Compartilhar</Text>
+        </TouchableOpacity>
       </View>
       <Text style={styles.information}>{props.messageResultImc}</Text>
       <Text style={styles.imc}>{props.resultImc}</Text>

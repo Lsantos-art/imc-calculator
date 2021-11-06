@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   formContext: {
-    justifyContent: "space-around",
     width: "100%",
     height: "100%",
     bottom: 0,
@@ -53,6 +52,23 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingLeft: 20,
   },
+  displayResult: {
+    width: "100%",
+    height: "50%",
+  },
+  listImcs: {
+    marginTop: 20,
+  },
+  resultImcItem: {
+    fontSize: 20,
+    color: "red",
+    height: 50,
+    width: "100%",
+    paddingRight: 20
+  },
+  textResultItemList: {
+    fontSize: 14,
+  }
 });
 
 export default styles;
